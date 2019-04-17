@@ -63,11 +63,17 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+module.exports = [{"label":"Mercury","props":{"radius":2439.764,"distance":0.38709888,"velocity":47.8725,"color":"#8c8b79"}},{"label":"Venus","props":{"radius":6051.59,"distance":0.72333193,"velocity":35.0214,"color":"#b78b5f"}},{"label":"Earth","props":{"radius":6378.15,"distance":1,"velocity":29.7859,"color":"#6fbccf"}},{"label":"Mars","props":{"radius":3397,"distance":1.5236621,"velocity":24.1309,"color":"#b85139"}},{"label":"Jupiter","props":{"radius":71492.68,"distance":5.2033623,"velocity":13.0697,"color":"#8caaa7"}},{"label":"Saturn","props":{"radius":60267.14,"distance":9.537069,"velocity":9.6724,"color":"#d6cab1"}},{"label":"Uranus","props":{"radius":25559,"distance":19.191261,"velocity":6.8352,"color":"#7fada9"}},{"label":"Neptun","props":{"radius":24764,"distance":30.06896,"velocity":5.4778,"color":"#355f8f"}},{"label":"Pluto","props":{"radius":1187,"distance":39.482,"velocity":4.668,"color":"#b17f4a"}}]
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75,7 +81,7 @@
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _planetData = __webpack_require__(1);
+var _planetData = __webpack_require__(0);
 
 var _planetData2 = _interopRequireDefault(_planetData);
 
@@ -321,12 +327,6 @@ var animate = function animate() {
 init();
 // redraw();
 animate();
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = [{"label":"Mercury","props":{"radius":2439.764,"distance":0.38709888,"velocity":47.8725,"color":"#8c8b79"}},{"label":"Venus","props":{"radius":6051.59,"distance":0.72333193,"velocity":35.0214,"color":"#b78b5f"}},{"label":"Earth","props":{"radius":6378.15,"distance":1,"velocity":29.7859,"color":"#6fbccf"}},{"label":"Mars","props":{"radius":3397,"distance":1.5236621,"velocity":24.1309,"color":"#b85139"}},{"label":"Jupiter","props":{"radius":71492.68,"distance":5.2033623,"velocity":13.0697,"color":"#8caaa7"}},{"label":"Saturn","props":{"radius":60267.14,"distance":9.537069,"velocity":9.6724,"color":"#d6cab1"}},{"label":"Uranus","props":{"radius":25559,"distance":19.191261,"velocity":6.8352,"color":"#7fada9"}},{"label":"Neptun","props":{"radius":24764,"distance":30.06896,"velocity":5.4778,"color":"#355f8f"}},{"label":"Pluto","props":{"radius":1187,"distance":39.482,"velocity":4.668,"color":"#b17f4a"}}]
 
 /***/ })
 /******/ ]);
